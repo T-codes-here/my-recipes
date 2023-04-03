@@ -3,17 +3,37 @@
     font-weight: 800;
 }
 
-h1, h2 , h4 {
+h1, h2 , h4, h6 {
     text-align: center;
+    font-style: italic;
 }
 
-img {
+.inrecipe {
+    text-align: left;
+}
+
+.tile, .main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
-li {
-    text-align:left;
+.tile {
+    max-width: 300px;
+}
+
+.main {
+    max-width: 500px;
+}
+
+div > img {
+    width: auto;
+    height : auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+.inlist {
+    text-align: center;
+    
 }
